@@ -14,6 +14,7 @@ namespace TestsUnitairesPourServices.Data
         {
         }
 
-        public DbSet<TestsUnitairesPourServices.Models.Cat> Cat { get; set; } = default!;
+        public DbSet<Cat> Cat { get; set; } = default!;
+        public DbSet<House> House { get; set; } = default!;
     }
 }
